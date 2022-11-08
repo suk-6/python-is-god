@@ -2,8 +2,8 @@ def calc(input_number):
     result = []
     input_number = int(input_number)
     if input_number > 0 and input_number < 100:
-        for i in range(100):
-            if i * input_number > 100:
+        for i in range(101):
+            if i * input_number >= 100:
                 return result
             result.append(i * input_number)
             
